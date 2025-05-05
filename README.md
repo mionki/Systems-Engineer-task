@@ -21,8 +21,8 @@ NB: This script requires Docker permissions to run correctly. If you encounter p
 
 ## Usage
 ```bash
-chmod +x tykio_scanner.sh
-./tykio_scanner.sh [options]
+chmod +x tyk_cve.sh
+./tyk_cve.sh [options]
 ```
 
 ## Options
@@ -32,8 +32,8 @@ chmod +x tykio_scanner.sh
 
 ## Example
 ```bash
-chmod +x tykio_scanner.sh
-./tykio_scanner.sh -o report.csv -l 5
+chmod +x tyk_cve.sh
+./tyk_cve.sh -o report.csv -l 5
 ```
 
 ## Output Format
